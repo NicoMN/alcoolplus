@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login de Empresa</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="login">
+			<h1>Login</h1>
+			<form action="autenticar.php" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="CNPJ" id="CNPJ" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Senha" id="senha" required>
+				<input type="submit" value="Login">
+			</form>
+        </div>
+        <a href="../views/registrar-empresa.php">Não é cadastrado? Registre-se</a>
+	</body>
+</html>
